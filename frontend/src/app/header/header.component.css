@@ -1,0 +1,48 @@
+
+.navbar{
+    background-color: rgb(122, 150, 226);
+    font-weight: 500;  
+}
+.navbar-nav{
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;   
+    padding: 6px 12px !important;
+    margin: 0px 0px 0px 10px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover{
+    color: white;
+    background-color: rgb(31, 61, 126) !important;
+    transition: .5s;
+}
+
+.navbar-brand{
+    cursor: default;
+}
+
+.btnAuth{
+    text-decoration: none;
+    color: black !important;
+    text-transform: uppercase;
+    background-color: transparent;
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    border: solid 2px rgb(31, 61, 126);
+    border-radius: 3px;
+    transition: .4s;
+   } 
+.btnAuth:hover{
+    background: rgb(31, 61, 126);
+    color: white;
+}
+
+.btnLink{
+    text-decoration: none;
+    color: black !important;
+}
